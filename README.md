@@ -99,10 +99,6 @@ class TCNNConfig(object):
 
 具体参看`cnn_model.py`的实现。
 
-大致结构如下：
-
-![images/cnn_architecture](images/cnn_architecture.png)
-
 ### 训练与验证
 
 运行 `python run_cnn.py train`，可以开始训练。
@@ -141,11 +137,6 @@ No optimization for a long time, auto-stopping...
 ```
 
 在验证集上的最佳效果为94.12%，且只经过了3轮迭代就已经停止。
-
-准确率和误差如图所示：
-
-![images](images/acc_loss.png)
-
 
 ### 测试
 
